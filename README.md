@@ -2,13 +2,13 @@
 
 [Github Pages](https://docs.github.com/en/pages/quickstart)
 
-`gh-pages` branch is sampling `minima` theme and all the code is under `/docs` folder. Folders and files in the root are a placeholders and should be removed (shortly).
+`master` branch is sampling `minima` theme and all the code is under `/root` folder.
 
-Site is configured to deploy from `gh-pages` branch and `/docs` folder.
+Site is configured to deploy from the default `master` branch and `/` folder.
 
 All the deployable content is under `_site` folder.
 
-To test the site locally run command below in the terminal from the `/docs` folder
+To test the site locally run command below in the terminal from the `/` folder
 ```
 bundle exec jekyll serve
 ```
